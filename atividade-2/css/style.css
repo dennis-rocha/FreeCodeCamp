@@ -1,0 +1,15 @@
+* { padding: 0; margin: 0;}
+
+/* Estilização do Cabeçalho */
+
+nav {
+    display: flex;
+    background-color: violet;
+}
+nav div{
+    display: grid;
+    grid-template-columns: 50px 100px;
+}
+body {
+    background-color: rgba(184, 109, 11, 0.966);
+}

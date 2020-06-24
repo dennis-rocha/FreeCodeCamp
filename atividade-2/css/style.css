@@ -1,15 +1,37 @@
 * { padding: 0; margin: 0;}
 
+/* Corpo */
+body {
+    background-color: rgba(184, 109, 11, 0.966);
+}
+
 /* Estilização do Cabeçalho */
 
 nav {
+    background-color: rgba(26, 26, 26, 0.966);
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+nav div#header-img {
     display: flex;
-    background-color: violet;
+    color: white;
 }
-nav div{
-    display: grid;
-    grid-template-columns: 50px 100px;
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: -30px;
+    float: right;
 }
-body {
-    background-color: rgba(184, 109, 11, 0.966);
+nav li {
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+nav a {
+    color: black;
+
 }
